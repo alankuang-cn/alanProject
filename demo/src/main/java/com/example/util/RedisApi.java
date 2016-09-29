@@ -43,9 +43,6 @@ public class RedisApi implements Serializable{
 	 * @return
 	 */
 	public String getString(String key) {
-		if (null == redisTemplate.opsForValue().get(key)) {
-			return null;
-		}
 		return redisTemplate.opsForValue().get(key);
 	}
 	
