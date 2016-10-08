@@ -7,7 +7,6 @@ public class ErrorInfo<T> {
 
 	private Integer code;
 	private String message;
-	private String url;
 	private T data;
 
 	public Integer getCode() {
@@ -24,14 +23,6 @@ public class ErrorInfo<T> {
 
 	public void setMessage(String message) {
 		this.message = message;
-	}
-
-	public String getUrl() {
-		return url;
-	}
-
-	public void setUrl(String url) {
-		this.url = url;
 	}
 
 	public T getData() {
