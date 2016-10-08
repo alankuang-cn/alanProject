@@ -40,3 +40,5 @@ mybatis:
   
 name : yimi
 task-schedule: false
+server:
+  port: 80
